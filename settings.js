@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~F8QRUDDb#L3vHfdnoCHg3UmEBu4xlZTOqEFJLU2y3ut1MS8tcn0g",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~8tIXHKAR#CXOhjC0DxOclvaeu9JqfkgxcM62tErVYNEm0K3FRhQQ",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
@@ -23,7 +23,7 @@ STICKER_NAME: process.env.STICKER_NAME || "MALVIN-XD",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
 // chose custom react emojis by yourself 
 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "917908338871,
@@ -50,7 +50,7 @@ READ_MESSAGE: process.env.READ_MESSAGE || "teue",
 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words
 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
@@ -98,13 +98,13 @@ AUTO_TYPING: process.env.AUTO_TYPING || "true",
 AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 // make it true for fake recoding 
 
-FAKE_TYPING: process.env.FAKE_TYPING || "false",
+FAKE_TYPING: process.env.FAKE_TYPING || "true",
 // make it true for fake typing
 
-READ_CMD: process.env.READ_CMD || "false",
+READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
 DEV: process.env.DEV || "917908338871",
